@@ -13,10 +13,5 @@ public class CardTester {
 		Card card1 = new Card ("A", "Clubs", 11);
 		Card card2 = new Card ("4", "Diamonds", 4);
 		Card card3 = new Card ("4", "Hearts", 4);
-
-		String [] ranks1 = {"A", "4", "4"};
-		String [] suits1 = {"Clubs", "Diamonds", "Hearts"};
-
-		Deck deck1 = new Deck ()
 	}
 }
