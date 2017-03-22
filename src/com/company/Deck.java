@@ -37,4 +37,12 @@ public class Deck {
         return deck.get(deckSize);
     }
 
+    public void shuffle () {
+        for (int i = deck.size() - 1; i > 0; i--) {
+            int pos = (int)(Math.random() * (i + 1));
+            Card temp = deck.get(pos);
+            deck.set(pos, deck.get(i));
+            deck.set(i, temp);
+        }
+    }
 }
